@@ -244,6 +244,9 @@ img
         text-align: center;
         margin-right: 20px;
     }
+#feature img {
+    margin-top: 20px;
+}
 /* end feature */
 
 /* start feature1 */
@@ -284,7 +287,7 @@ img
     }
 #pricing h2
     {
-        padding-bottom: 60px;
+        padding-bottom: 20px;
     }
 #pricing .pricing
     {
@@ -330,9 +333,11 @@ img
         margin-bottom: 30px;
         transition: all 0.3s ease;
     }
-#pricing .pricing .btn:hover {
-    background: #d4200f;
-    color: #fff;
+#pricing .pricing .btn a {
+    color: #d4200f;
+}
+#pricing .free-trial {
+    padding-bottom: 30px;
 }
 /* end pricing */
 
