@@ -9,7 +9,7 @@ http://www.templatemo.com/tm-446-boxer
 body
     {
         background: #fff;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Nunito Sans', sans-serif;
         font-weight: 300;
         position: relative;
         width: 100%;
@@ -140,11 +140,12 @@ img
     }
 .navbar-default .navbar-brand
     {
-        color: #28a7e9;
+        color: #AF1000;
         font-size: 30px;
         font-weight: bold;
         height: 70px;
         line-height: 35px;
+        letter-spacing: 3px;
     }
 .navbar-default .nav li a
     {
@@ -158,7 +159,7 @@ img
 .navbar-default .nav li a:focus,
 .navbar-default .nav li a.current
     {
-        color: #28a7e9;
+        color: #376fa0;
     }
 
 .navbar-default .navbar-toggle
@@ -178,7 +179,7 @@ img
 /* start home */       
 #home
     {
-    background: url('../images/home-bg.jpg') no-repeat;
+    background: url('../images/stencil.artcat-home-2x.jpg') no-repeat;
     background-size: cover;
     color: #fff;
     margin-top: 70px;
