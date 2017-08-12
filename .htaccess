@@ -1,0 +1,13 @@
+ErrorDocument 404 /
+
+# redirects for old ArtCat Calendar
+RedirectMatch permanent /exhibits/(.*) http://calendar.artcat.com/exhibits/$1
+RedirectMatch permanent /neighborhoods/(.*) http://calendar.artcat.com/neighborhoods/$1
+RedirectMatch permanent /openings/.* http://calendar.artcat.com/
+RedirectMatch permanent /event/view/(.*) http://calendar.artcat.com/event/view/$1
+Redirect permanent /picks http://calendar.artcat.com/
+Redirect permanent /about http://calendar.artcat.com/about
+Redirect permanent /about/links http://calendar.artcat.com/about/links
+Redirect permanent /about/feeds http://calendar.artcat.com/about/feeds
+Redirect permanent /about/legal http://calendar.artcat.com/about/legal
+Redirect permanent /contact/comment http://calendar.artcat.com/contact
