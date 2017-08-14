@@ -366,7 +366,7 @@ img
 #contact
     {
         background: url('../images/contact-bg.jpg') no-repeat;
-        background-size: contain;
+        background-size: cover;
         color: #fff;
     }
 #contact h2
