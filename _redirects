@@ -1,0 +1,14 @@
+
+# redirects for old ArtCat Calendar
+/exhibits/* http://calendar.artcat.com/exhibits/:splat  301
+/neighborhoods/*  http://calendar.artcat.com/neighborhoods/:splat  301
+/openings/* http://calendar.artcat.com/ 301
+/event/view/* http://calendar.artcat.com/event/view/:splat  301
+
+
+/picks  http://calendar.artcat.com/ 301
+/about  http://calendar.artcat.com/about  301
+/links  http://calendar.artcat.com/about/links  301
+/feeds  http://calendar.artcat.com/about/feeds  301
+/legal  http://calendar.artcat.com/about/legal  301
+/contact/comment  http://calendar.artcat.com/contact  301
